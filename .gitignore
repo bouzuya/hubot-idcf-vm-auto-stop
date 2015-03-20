@@ -1,0 +1,6 @@
+*.log
+.envrc
+.hubot_history
+.tmp
+coverage
+node_modules

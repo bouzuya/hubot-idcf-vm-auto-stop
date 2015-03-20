@@ -1,0 +1,46 @@
+{
+  "name": "hubot-idcf-vm-auto-stop",
+  "description": "A Hubot script to stop all virtual machines in IDCF cloud",
+  "version": "0.0.0",
+  "author": {
+    "name": "bouzuya",
+    "mail": "m@bouzuya.net",
+    "url": "http://bouzuya.net"
+  },
+  "bugs": {
+    "url": "https://github.com/bouzuya/hubot-idcf-vm-auto-stop/issues"
+  },
+  "dependencies": {
+    "cron": "^1.0.9",
+    "es6-promise": "^2.0.1",
+    "hubot-config": "^1.0.1",
+    "request": "^2.53.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "hubot": "^2.8.0",
+    "hubot-script-scripts": "https://github.com/bouzuya/hubot-script-scripts/archive/1.0.2.tar.gz",
+    "power-assert": "^0.10.2",
+    "sinon": "^1.12.2"
+  },
+  "homepage": "https://github.com/bouzuya/hubot-idcf-vm-auto-stop",
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bouzuya/hubot-idcf-vm-auto-stop.git"
+  },
+  "scripts": {
+    "build": "hss build",
+    "clean": "hss clean",
+    "coveralls": "hss coveralls",
+    "robot": "HUBOT_SHELL_USER_NAME='bouzuya' hubot --adapter shell --name hubot",
+    "robot-debug": "HUBOT_LOG_LEVEL='debug' HUBOT_SHELL_USER_NAME='bouzuya' hubot --adapter shell --name hubot",
+    "test": "hss test",
+    "watch": "hss watch"
+  }
+}
