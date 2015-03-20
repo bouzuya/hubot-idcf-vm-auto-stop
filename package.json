@@ -1,7 +1,7 @@
 {
   "name": "hubot-idcf-vm-auto-stop",
   "description": "A Hubot script to stop all virtual machines in IDCF cloud",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": {
     "name": "bouzuya",
     "mail": "m@bouzuya.net",
