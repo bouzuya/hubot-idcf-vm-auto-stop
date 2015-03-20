@@ -45,8 +45,8 @@ module.exports = (robot) ->
       message = machines.map((i) -> i.displayname).join '\n'
       robot.messageRoom config.room, message
     .catch (e) ->
-      robot.logger.error 'hubot-idcf-vm: error'
+      robot.logger.error 'hubot-idcf-vm-auto-stop: error'
       robot.logger.error e
-      res.send 'hubot-idcf-vm: error'
+      res.send 'hubot-idcf-vm-auto-stop: error'
 
   new CronJob config.cron, action, null, true, 'Asia/Tokyo'
