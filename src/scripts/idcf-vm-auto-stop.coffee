@@ -53,7 +53,7 @@ actionAll = (robot, action, machines) ->
   machines.reduce (promise, i) ->
     promise
     .then ->
-      client.request action, { id: i.id }
+      client.request action, { id: i }
     .then ->
       new Promise (resolve) ->
         setTimeout resolve, 1000
