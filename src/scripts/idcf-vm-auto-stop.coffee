@@ -20,7 +20,7 @@
 #
 {CronJob} = require 'cron'
 {Promise} = require 'es6-promise'
-idcf = require '../idcf'
+idcf = require 'idcf-cloud-api'
 parseConfig = require 'hubot-config'
 
 config = parseConfig 'idcf-vm-auto-stop',
